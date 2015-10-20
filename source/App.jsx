@@ -10,7 +10,7 @@ class App extends React.Component {
                     <nav className="top-nav">
                         <div className="container">
                             <div className="nav-wrapper">
-                                <a className="brand-logo" href="#">Antoine's Demos</a>
+                                <Link to="/" className="brand-logo">Antoine's Demo</Link>
                                 <ul className="right hide-on-med-and-down" id="nav-mobile">
                                     <li>
                                         <Link to="/react-vr-player">VR Player Demo</Link>
@@ -25,7 +25,6 @@ class App extends React.Component {
             </div>
         );
     }
-
 }
 
 export default App;

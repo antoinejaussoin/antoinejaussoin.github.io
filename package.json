@@ -4,7 +4,7 @@
   "description": "Antoine Jaussoin's GitHub page",
   "main": "index.html",
   "scripts": {
-    "build": "webpack -p && node build-index.js",
+    "build": "webpack -p && node ./isomorphic/generate.js",
     "watch": "webpack --watch",
     "serve": "node node_modules/.bin/http-server -o -p 6767 ."
   },

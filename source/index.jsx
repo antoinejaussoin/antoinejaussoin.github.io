@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from 'react-router';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
-import Routes from './routes';
+import routes from './routes';
 
 const component = <Router history={createBrowserHistory()}>
-    <Routes />,
+    {routes}
 </Router>;
 
 ReactDOM.render(component,  document.getElementById('content'));

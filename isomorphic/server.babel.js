@@ -1,12 +1,13 @@
 //  enable runtime transpilation to use ES6/7 in node
 
 var fs = require('fs');
+var path = require('path');
 
 require.extensions['.txt'] = function (module, filename) {
     module.exports = fs.readFileSync(filename, 'utf8');
 };
 
-var babelrc = fs.readFileSync('./.babelrc');
+var babelrc = fs.readFileSync(path.resolve(__dirname+'/.babelrc'));
 var config;
 
 try {
@@ -27,7 +28,7 @@ global.document = {
         return {
             type: '',
             appendChild: function(){}
-        }
+        };
     },
     getElementsByTagName: function(){
         return [{
