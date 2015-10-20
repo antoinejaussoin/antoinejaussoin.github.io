@@ -1,0 +1,23 @@
+{
+  "name": "antoinejaussoin.github.io",
+  "version": "0.0.1",
+  "description": "Antoine Jaussoin's GitHub page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinejaussoin/antoinejaussoin.github.io.git"
+  },
+  "author": "Antoine Jaussoin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoinejaussoin/antoinejaussoin.github.io/issues"
+  },
+  "homepage": "https://github.com/antoinejaussoin/antoinejaussoin.github.io#readme",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-vr-player": "0.0.9"
+  }
+}
