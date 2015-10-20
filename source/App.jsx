@@ -1,4 +1,4 @@
-import { default as React, PropTypes } from 'react';
+import { default as React } from 'react';
 import {Link} from 'react-router';
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
                     <nav className="top-nav">
                         <div className="container">
                             <div className="nav-wrapper">
-                                <Link to="/" className="brand-logo">Antoine's Demo</Link>
+                                <Link to="/" className="brand-logo">Antoine's Demos</Link>
                                 <ul className="right hide-on-med-and-down" id="nav-mobile">
                                     <li>
                                         <Link to="/react-vr-player">VR Player Demo</Link>

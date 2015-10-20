@@ -1,4 +1,4 @@
-import { default as React, PropTypes } from 'react';
+import { default as React } from 'react';
 import { Link } from 'react-router';
 
 class Home extends React.Component {
@@ -6,7 +6,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="container">
-                <h3>Welcome to my little demo page.</h3>
+                <h3>Welcome to my demo page.</h3>
 
                 <p>At the moment, the only demo is a <Link to="/react-vr-player">360° Video Player</Link>, that works on the Oculus Rift and other VR headsets.</p>
 

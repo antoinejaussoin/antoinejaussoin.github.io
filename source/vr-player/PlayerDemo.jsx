@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import VrPlayer from 'react-vr-player';
 
 class PlayerDemo extends React.Component {

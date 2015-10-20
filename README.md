@@ -9,6 +9,7 @@ Personal Site
 
 `npm run serve`
 
-## Why but Why
+## Isomorphic
 
-Why does the repo include the build/ folder and its bundle.js files? Because this is meant to be run as a static website on Github.io and it needs those files to run.
+`ìndex.html` is actually generated from the React code, and already contains a pre-loaded version of the main (landing) page.
+The 'normal' one is index_dev.html.

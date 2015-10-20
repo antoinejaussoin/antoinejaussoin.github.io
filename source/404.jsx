@@ -1,4 +1,4 @@
-import { default as React, PropTypes } from 'react';
+import { default as React } from 'react';
 
 class NotFound extends React.Component {
 

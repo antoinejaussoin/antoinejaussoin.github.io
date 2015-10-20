@@ -1,4 +1,4 @@
-import { default as React, PropTypes } from 'react';
+import { default as React } from 'react';
 import { Link } from 'react-router';
 import example1 from './example1.txt';
 import example2 from './example2.txt';

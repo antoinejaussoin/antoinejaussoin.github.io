@@ -17,6 +17,7 @@ try {
   console.error(err);
 }
 
+// Need to stub the window and document objects, some code somewhere calls them directly
 global.window = {
     navigator: {
         userAgent: 'NODE'
