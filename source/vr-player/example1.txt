@@ -1,0 +1,15 @@
+import VrPlayer from 'react-vr-player';
+
+[...]
+
+render() {
+    const sources = [
+        { url: '/videos/video.webm', type: 'video/webm'},
+        { url: '/videos/video.mp4', type: 'video/mp4'}
+    ];
+    return (
+        <div>
+            <VrPlayer sources={ sources } />
+        </div>
+    );
+}

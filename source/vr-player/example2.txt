@@ -1,0 +1,30 @@
+import VrPlayer from 'react-vr-player';
+
+[...]
+
+render() {
+    const sources = [
+        { url: '/videos/video.webm', type: 'video/webm'},
+        { url: '/videos/video.mp4', type: 'video/mp4'}
+    ];
+    const keys = {
+        left: 'Q',
+        right: 'D',
+        up: 'Z',
+        down: 'S',
+        rotateLeft: 'A',
+        rotateRight: 'E',
+        fullScreen: 'F',
+        zeroSensor: 'W',
+        playPause: ' '
+    };
+    return (
+        <div>
+            <VrPlayer sources={ sources }
+                      brand="Your Brand"
+                      title="My Video Title"
+                      keys={ keys }
+            />
+        </div>
+    );
+}
