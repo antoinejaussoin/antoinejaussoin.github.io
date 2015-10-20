@@ -1,7 +1,7 @@
 import { default as React, PropTypes } from 'react';
 import { Link } from 'react-router';
-import example1 from 'raw!./example1.txt';
-import example2 from 'raw!./example2.txt';
+import example1 from './example1.txt';
+import example2 from './example2.txt';
 
 class PlayerPage extends React.Component {
 
