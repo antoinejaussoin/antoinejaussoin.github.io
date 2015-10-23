@@ -12,6 +12,8 @@ class PlayerPage extends React.Component {
 
                 <h3 className="header">Welcome to the VR Player Demo Page</h3>
 
+                <img src="https://img.shields.io/github/issues/antoinejaussoin/react-vr-player.svg" />
+
                 <h4>Demo</h4>
 
                 <p>The demo is on a separate page, since this is a fullscreen component. You can run the demo by clicking here:</p>

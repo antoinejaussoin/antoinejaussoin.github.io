@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack -p && node ./isomorphic/generate.js",
     "watch": "webpack --watch",
-    "serve": "node node_modules/.bin/http-server -o -p 6767 ."
+    "serve": "node node_modules/.bin/http-server -o -p 6767 .",
+    "start": "npm run watch & npm run serve"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,7 @@
     "react-tools": "^0.10.0",
     "react-transform": "0.0.3",
     "react-transform-catch-errors": "^1.0.0",
-    "react-vr-player": "^0.0.12",
+    "react-vr-player": "^0.1.0",
     "redbox-react": "^1.1.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2",
